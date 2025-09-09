@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+   "type": "commonjs",
+  "description": "",
+     "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed:import": "node seeder.js --import",
+  "seed:delete": "node seeder.js --delete"
+  },
+  
+  "dependencies": {
+    "@stripe/stripe-js": "^7.8.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "resend": "^6.0.1",
+    "stripe": "^18.4.0"
+  }
+}

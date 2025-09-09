@@ -1,0 +1,19 @@
+logs
+*.logs
+
+# NODE Models
+client/node_modules/
+server/node_modules/
+
+
+
+
+# Envromnt varubols
+client/.env 
+server/.env 
+
+
+
+
+
+.DS_Store
